@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodStop - Place Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">🍽 FoodStop</a>
+  <div class="nav-links">
+    <a href="index.html">Menu</a>
+    <a href="cart.html">Cart</a>
+    <a href="order.html" class="active">Orders</a>
+  </div>
+</nav>
+
+<div class="wrapper">
+  <h1>Place Order</h1>
+  <p class="sub">Fill in your details and confirm</p>
+
+  <div id="div1"></div>
+
+  <div class="form-box" id="div2">
+    <div id="div3"></div>
+    <label>Your Name</label>
+    <input type="text" id="inp1" placeholder="e.g. Hamza Patel">
+    <label>Phone Number</label>
+    <input type="text" id="inp2" placeholder="e.g. 9876543210">
+    <label>Delivery Address</label>
+    <input type="text" id="inp3" placeholder="e.g. 12 Main Street, Ahmedabad">
+    <button class="btn" onclick="placeOrder()">Confirm Order</button>
+  </div>
+
+  <div id="div4" style="margin-top:40px;"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="order.js"></script>
+
+</body>
+</html>
